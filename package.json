@@ -1,0 +1,12 @@
+{
+  "name": "omnix-browser",
+  "version": "0.1.0",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^30.0.0"
+  }
+}
