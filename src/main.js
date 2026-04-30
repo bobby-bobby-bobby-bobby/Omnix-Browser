@@ -11,12 +11,13 @@ function createWindow() {
     width: 1200,
     height: 800,
     webPreferences: {
+      webviewTag: true,
       nodeIntegration: true,
       contextIsolation: false
     }
   });
 
-  mainWindow.loadURL("https://example.com");
+  mainWindow.loadFile('src/ui/index.html');
 }
 
 app.whenReady().then(createWindow);
